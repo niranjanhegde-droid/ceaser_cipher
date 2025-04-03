@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+    color: #333;
+    background-image:url("images.png");
+}
+.container {
+    background: rgba(255, 255, 255, 0.5 ); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    backdrop-filter: blur(10px); /* Glass effect: blur the background */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: border for better visibility */
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4); /* Slight hover effect */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #6c0c0c;
+}
+
+p {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+textarea, input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 2px solid black; /* Black border for all input fields */
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+    background: #fff;
+    color: #333;
+}
+
+textarea {
+    height: 100px;
+    resize: none; /* Disable resizing */
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6); /* Focus shadow effect */
+    border-color: black; /* Keep border black on focus */
+}
+
+button {
+    width: 50%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0704a6d7; /* Button background color */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #104606; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+button:active {
+    transform: scale(0.95); /* Slight shrink effect on click */
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+}
