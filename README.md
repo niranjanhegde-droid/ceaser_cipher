@@ -4,7 +4,12 @@ A visually appealing web application that allows users to encrypt text using the
 
 ---
 
+## 🌐 Live Preview
+
+[View Website](https://niranjanhegde-droid.github.io/ceaser_cipher/)
 ## ✨ Features
+
+---
 
 - 🔢 Encrypts any text using Caesar Cipher logic
 - 🎨 Modern UI with glassmorphism and gradient background
