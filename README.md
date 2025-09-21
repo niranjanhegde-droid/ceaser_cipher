@@ -6,7 +6,7 @@ A visually appealing web application that allows users to encrypt text using the
 
 ## 🌐 Live Preview
 
-[View Website](https://niranjanhegde-droid.github.io/ceaser_cipher/)
+[View Website](https://niranjanhegde-droid.github.io/text_encrypter/)
 ## ✨ Features
 
 ---
